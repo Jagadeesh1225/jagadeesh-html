@@ -1,0 +1,48 @@
+<!DOCTYPE>
+<HTML>
+    <head>
+        <title>
+            Electrical bike usage
+        </title>
+    </head>
+    <body>
+        <!-- awarness abt the usage of electrical bikes -->
+        <h1>
+           <center> Electrical Bikes Registration </center>
+        </h1>
+        <hr/>
+         <form bikereg="/electrical_bikes.registration">
+         <fieldset>  
+            <legend>Electrical Bike Online Booking</legend> 
+         <label>
+            <b>Name:</b>
+        </label>
+        <input type="text">
+        <br/>
+        <label><b>Phn.Number:</Phn></b></label>
+        <input type="number"><br>
+        <label><b>Gender:</b></label>
+        <input type="radio"Name="jag">male  <input type="radio"Name="jag">female <input type="radio"Name="jag">other<br>
+        <label><b>Mainitaining Vehicles:-</b>
+        </label><br>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Petrol Bike">
+            <label for="vehicle1"> I am maintaining a petrol bike</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Diesel Car">
+            <label for="vehicle1"> I am maintaining a Diesel Car</label><br>
+        <input type="submit" value="Submit"> 
+    </fieldset>
+         </form>
+         <img src="https://rukminim1.flixcart.com/image/416/416/xif0q/electric-bike-scooter/8/n/i/-original-imaggcdwr2fbmxeg.jpeg?q=70" alt="electrical bike" width="300" heigth="400">
+         <label for="Millage"><b>Millage_of_the_Electricalbike:</b>
+         </label>
+         <meter id="Millage" value="80" min="0" max="100"></meter>
+         <label for="power"><b>Battery_of_the_Electricalbike:</b></label>
+         <meter id="power" value="75" min="0" max="100"></meter>
+         <br>
+         
+         <p>
+            <label><h3><mark>Importance:-</mark></h3></label>
+            <ins>Due</ins> <em>to</em> <code>usage</code> of these <b>electrical bikes</b> we can use less amount of <cite>electrical energy</cite> due that electrical <br/> It can leads to less usage of <dfn>natural resouses</dfn> like petrol and diesel so due that<br> we can not depend on any <i>other country</i> for the petrol and diesel hence it can prohibit lot of distraction in the world <br>and that it can leads to stop the <bdo>global warming</bdo> hence it can leads to the increase the life span of the world and that increase the life span of the human beings in the world  
+        </p>
+    </body>
+</HTML>
